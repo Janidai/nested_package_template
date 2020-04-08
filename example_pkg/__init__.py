@@ -5,9 +5,9 @@
 # from example_pkg import helpers -> ERROR
 from random import choice
 
-from .helpers import fun_2, Person
+from .supporters import fun_2, Person
 
 from .core import is_prime, print_next_prime
 
-
+from example_pkg import sub_pkg_2
 

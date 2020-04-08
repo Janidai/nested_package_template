@@ -3,20 +3,13 @@
 # Created by: noonwave
 # Created on: 4/6/20
 
-# from example_pkg import fun_2
-#
-#
-# fun_2("hello")
-#
-#
-# def main():
-#     people = [Person('Janid')]
-#     print(people)
-#     for i in range(6):
-#         print(i)
-#
-# if __name__ == '__main__':
-#     main()
+from example_pkg import fun_2
+from example_pkg import sub_pkg_2
+
+print(sub_pkg_2.message)
+
+fun_2("hello")
+
 
 def is_prime(number):
     """Retrun True if *number* is prime."""
@@ -32,3 +25,16 @@ def print_next_prime(number):
         index +=1
         if is_prime(index):
             print(index)
+
+def main():
+    people = [Person('Janid')]
+    print(people)
+    for i in range(6):
+        print(i)
+
+
+
+
+
+if __name__ == '__main__':
+    main()
