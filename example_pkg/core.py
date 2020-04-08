@@ -11,6 +11,7 @@ print(sub_pkg_2.message)
 fun_2("hello")
 
 print("janid")
+print("janid_s")
 def is_prime(number):
     """Retrun True if *number* is prime."""
     for element in range(2, number):
