@@ -8,7 +8,7 @@ setuptools.setup(
     version='0.0.1',
     author='janid',
     author_email='janid.abdellah@gmail.com',
-    description='A small example package',
+    description='A small example of package',
     long_description=long_description,
     long_description_content_type="text/markdown",
     url='',
