@@ -3,17 +3,20 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+with open('LICENSE') as f:
+    license = f.read()
+
 setuptools.setup(
     name='example-pkg-janid', # Replace with your own username e.g example-pkg-name
-    version='0.0.1',
-    author='janid',
+    version='0.0.1', #TODO
+    author='Abdellah Janid',
     author_email='janid.abdellah@gmail.com',
     description='A small example of package',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='',
-    license='',
-    packages=setuptools.find_packages(),
+    url='', #TODO
+    license=license,
+    packages=setuptools.find_packages(exclude=('tests', 'docs')),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

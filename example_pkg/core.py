@@ -3,10 +3,20 @@
 # Created by: noonwave
 # Created on: 4/6/20
 
-from example_pkg import fun_2
+from example_pkg import message
 from example_pkg import sub_pkg_2
 
+from example_pkg import fun_2
+
+
+from example_pkg
+from .supporters import fun_2
+
+
+
+
 print(sub_pkg_2.message)
+print(message)
 
 fun_2("hello")
 
