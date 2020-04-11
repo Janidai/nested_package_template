@@ -2,4 +2,10 @@
 # Objective : TODO
 # Created by: noonwave
 # Created on: 4/6/20
-from example_pkg.sub_pkg_1 import mod_one, mod_two
+
+# Import functions from the modules in the package
+from example_pkg.sub_pkg_1.mod_two import stringToLower
+from example_pkg.sub_pkg_1.mod_one import stringToUpper
+
+# Impost nested packages
+from example_pkg.sub_pkg_1 import nested_pkg_1

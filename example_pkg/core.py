@@ -3,14 +3,65 @@
 # Created by: noonwave
 # Created on: 4/6/20
 
-from example_pkg import message
-from example_pkg import sub_pkg_2
-
-from example_pkg import fun_2
+from example_pkg import message, sub_pkg_2
 
 
-from example_pkg
-from .supporters import fun_2
+"""
+Method 1: import package and use modules as methods
+Step 1: in /sub_pkg_1/__init__.py add
+"""
+# from example_pkg.sub_pkg_1 import mod_one
+# from example_pkg.sub_pkg_1 import mod_two
+"""
+in example_pkg/code.py
+You can import
+"""
+# from example_pkg import sub_pkg_1 as pkg_1
+# name = "janid"
+# pkg_1.mod_one.stringToUpper(name)
+#
+
+
+"""
+Method 2: import package and use modules as methods
+Step 1: in /sub_pkg_1/__init__.py add
+"""
+# from example_pkg.sub_pkg_1.mod_two import stringToLower
+# from example_pkg.sub_pkg_1.mod_one import stringToUpper
+"""
+in example_pkg/code.py
+You can import
+"""
+# from example_pkg import sub_pkg_1
+# name = "janid"
+# pkg_1.stringToLower(name)
+# pkg_1.mod_one
+
+from example_pkg import sub_pkg_1
+
+sub_pkg_1.nested_pkg_1.nested_function()
+
+
+sub_pkg_1.stringToUpper("janid")
+
+sub_pkg_1.nest.nested_function()
+
+
+#1) from example_pkg import fun_2 -> works
+
+
+
+
+sub_pkg_1.stringToLower()
+
+name = "janid"
+
+stringToLower(name)
+
+stringToUpper(name)
+
+
+# from .supporters import fun_2 -> Error
 
 
 
