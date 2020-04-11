@@ -3,7 +3,7 @@
 # Created by: noonwave
 # Created on: 4/9/20
 
-def stringToUpper(inStr):
+def string_to_upper(inStr):
     return inStr.upper()
 
 

@@ -1,5 +1,8 @@
 import setuptools
 
+from example_pkg import __about__
+
+
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
@@ -8,9 +11,9 @@ with open('LICENSE') as f:
 
 setuptools.setup(
     name='example-pkg-janid', # Replace with your own username e.g example-pkg-name
-    version='0.0.1', #TODO
+    version=__about__.__version__,
     author='Abdellah Janid',
-    author_email='janid.abdellah@gmail.com',
+    author_email='janid@hotmail.it',
     description='A small example of package',
     long_description=long_description,
     long_description_content_type="text/markdown",

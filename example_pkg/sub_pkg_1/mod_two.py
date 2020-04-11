@@ -3,7 +3,7 @@
 # Created by: noonwave
 # Created on: 4/9/20
 
-def stringToLower(inStr):
+def string_to_lower(inStr):
     return inStr.lower()
 
 

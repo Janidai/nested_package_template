@@ -5,11 +5,6 @@
 
 
 
-def fun_2(string):
-    string = string+" janid"
-    return string
-
-
 class Person:
     def __init__(self, name):
         self.name = name
