@@ -18,7 +18,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url='',  # TODO
     license=license,
-    packages=setuptools.find_packages(exclude=('tests', 'docs')),
+    packages=setuptools.find_packages(exclude=('tests*', 'docs')),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

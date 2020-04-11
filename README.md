@@ -3,12 +3,13 @@ A template of a python project with nested packages.
 
 
 # Project structure:
-The main structure is as follow:
-- ```LICENSE.md```: Your project's license, if it's open source. (See opensource.org for more information about selecting one.)
+Python allows flexibity in defining the structure of the project,
+Here we show an example:
+- ```LICENSE.md```: Your project's license.
 - ```README.md```: A description of your project and its goals.
-- ```.gitignore```: A special file that tells Git what files and directories to ignore. 
+- ```.gitignore```: A file that tells Git what files and directories to ignore. 
 - ```example_pkg```: A directory with the name of your project.
-- ```requirements.txt```:defines outside Python dependencies and their versions for your application.
+- ```requirements.txt```: A file where you can defines outside Python dependencies and their versions for your package.
 
 ```
 ├── docs

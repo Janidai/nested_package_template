@@ -4,5 +4,5 @@
 # Created on: 4/8/20
 
 
-# from .mod_1 import message
-# from .mod_2 import message_2
+from example_pkg.sub_pkg_2.mod_1 import to
+from example_pkg.sub_pkg_2.mod_2 import Person

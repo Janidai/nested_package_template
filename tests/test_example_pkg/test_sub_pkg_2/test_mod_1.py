@@ -1,8 +1,4 @@
 # Title     : TODO
 # Objective : TODO
 # Created by: noonwave
-# Created on: 4/8/20
-
-
-def to():
-    return "to"
+# Created on: 4/11/20
