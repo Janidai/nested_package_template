@@ -2,8 +2,46 @@
 A template of a python project with nested packages.
 
 
-# Project strcuture:
+# Project structure:
+The main structure is as follow:
+- ```LICENSE.md```: Your project's license, if it's open source. (See opensource.org for more information about selecting one.)
+- ```README.md```: A description of your project and its goals.
+- ```.gitignore```: A special file that tells Git what files and directories to ignore. 
+- ```example_pkg```: A directory with the name of your project.
+- ```requirements.txt```:defines outside Python dependencies and their versions for your application.
 
+```
+├── docs
+├── example_pkg                 Top-level package
+│   ├── __about__.py
+│   ├── core.py
+│   ├── __init__.py
+│   ├── sub_pkg_1
+│   │   ├── __init__.py
+│   │   ├── mod_one.py
+│   │   ├── mod_two.py
+│   │   └── nested_pkg_1
+│   │       ├── __init__.py
+│   │       └── nst_1.py
+│   ├── sub_pkg_2
+│   │   ├── __init__.py
+│   │   ├── mod_1.py
+│   │   └── mod_2.py
+│   └── supporters.py
+├── .gitignore                  
+├── LICENSE
+├── README.md
+├── requirements.txt
+├── setup.py
+└── tests
+    ├── functional
+    ├── __init__.py
+    ├── test_nst_1.py
+    └── unit
+        ├── __init__.py
+        └── test_core.py
+
+```
 ## Importing functions:
 
 What is imported in ```__init__.py``` ; can be called using the dot notation when the directory is imported as

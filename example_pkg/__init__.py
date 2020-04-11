@@ -8,6 +8,3 @@ from example_pkg import sub_pkg_1
 from example_pkg import sub_pkg_2
 
 from example_pkg.supporters import Person
-
-
-

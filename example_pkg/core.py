@@ -3,18 +3,18 @@
 # Created by: noonwave
 # Created on: 4/6/20
 
-from example_pkg import Person
+from example_pkg import Person, sub_pkg_1
 from example_pkg.sub_pkg_1 import nested_pkg_1
 
 print(nested_pkg_1.nested_function())
 
-sub_pkg_1.string_to_upper("janid")
-
+sub_pkg_1.hello("janid")
 
 
 def main():
     people = []
-    people.append(Person('Janid'))
+    for i in range(1, 3):
+        people.append(Person('name_' + str(i)))
     for person in people:
         print(person.name)
 
