@@ -22,7 +22,7 @@ def main(person):
 
 
 if __name__ == '__main__':
-    # import sys
-    # name = sys.argv[0]
-    name = input()
+    import sys
+    name = sys.argv[1]
+    #name = input()
     main(name)

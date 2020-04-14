@@ -8,3 +8,4 @@ from example_pkg.sub_pkg_1.mod_one import hello
 from example_pkg.sub_pkg_1.mod_two import world
 
 # Impost nested packages
+from example_pkg.sub_pkg_1 import nested_pkg_1

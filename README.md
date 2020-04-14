@@ -79,3 +79,21 @@ sub_pkg_1.nested_pkg_1.nested_function()
 - [Python Software Foundation [US]. (2017). Python Packaging User Guide Apr 03, 2020. https://packaging.python.org/](https://packaging.python.org/tutorials/packaging-projects/)
 - [The Hitchhicker's Guide to Python](https://docs.python-guide.org/writing/structure/)
 
+
+# Install
+in setup folder run
+pip install .
+
+WARNING: using 
+```python setup.py install```
+
+the package doesnot show through conda list
+Note: Avoid using python setup.py install use ```pip install .```
+[https://stackoverflow.com/questions/1550226/python-setup-py-uninstall]
+
+#TODO
+try generating wheel and installing the file
+```
+python3 setup.py sdist bdist_wheel
+```
+https://packaging.python.org/tutorials/packaging-projects/

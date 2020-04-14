@@ -5,3 +5,5 @@
 
 
 from example_pkg.helpers import greetings
+from example_pkg import sub_pkg_1
+from example_pkg import sub_pkg_2

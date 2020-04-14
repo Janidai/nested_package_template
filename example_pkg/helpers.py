@@ -1,6 +1,6 @@
-# Title     : TODO
-# Objective : TODO
-# Created by: noonwave
+# Title     : Helpers
+# Objective : Functions for supporting all the modules and packages
+# Created by: Janid
 # Created on: 4/6/20
 
 
@@ -22,3 +22,5 @@ def greetings(str_1, str_2, str_3, person, str_4):
         print("{} {} {} {} {}".format(str_1, str_2, str_3, person, str_4))
     else:
         print("{} {} {} nobuddy {}".format(str_1, str_2, str_3, str_4))
+
+

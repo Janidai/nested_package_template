@@ -9,11 +9,11 @@ with open('LICENSE') as f:
     license = f.read()
 
 setuptools.setup(
-    name='example-pkg-janid',  # Replace with your own username e.g example-pkg-name
-    version=__about__.__version__,
+    name='example-pkg-janid',  # Replace with your own username e.g example-pkg-name #TODO
+    version=__about__.__version__,  # TODO
     author='Abdellah Janid',
-    author_email='janid@hotmail.it',
-    description='A small example of package',
+    author_email='janid@hotmail.it',  # TODO
+    description='A small example of package',  # TODO
     long_description=long_description,
     long_description_content_type="text/markdown",
     url='',  # TODO
@@ -24,7 +24,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Development Status :: 1 - Planning",
-
     ],
     python_requires='>=3.6',
 )
