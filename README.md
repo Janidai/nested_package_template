@@ -35,12 +35,7 @@ Here we show an example:
 ├── requirements.txt
 ├── setup.py
 └── tests
-    ├── functional
-    ├── __init__.py
-    ├── test_nst_1.py
-    └── unit
-        ├── __init__.py
-        └── test_core.py
+
 
 ```
 ## Importing functions:
