@@ -60,7 +60,7 @@ from example_pkg.sub_pkg_1.nested_pkg_1.nst_1 import nested_function
 ## Importing packages:
 Then in sub_pkg_1/__init__.py, Then we import the nested_pkg_1  
 ```
-# Impost nested_pkg_1
+# Import nested_pkg_1
 from example_pkg.sub_pkg_1 import nested_pkg_1
 ```
 
