@@ -82,9 +82,9 @@ pip install .
 WARNING: using 
 ```python setup.py install```
 
-the package doesnot show through conda list
-Note: Avoid using python setup.py install use ```pip install .```
-[https://stackoverflow.com/questions/1550226/python-setup-py-uninstall]
+the package doesnot show through conda list  
+Note: Avoid using python setup.py install use ```pip install .```  
+[https://stackoverflow.com/questions/1550226/python-setup-py-uninstall]  
 
 #TODO
 try generating wheel and installing the file
